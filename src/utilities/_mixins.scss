@@ -1,13 +1,13 @@
 @use 'utilities/functions' as *;
 
 @use '../base' as *;
-// /*Typography rules*/
 
-//Logo
 @mixin logo ($size, $letterspace) {
     font-family: $josefin;
     font-weight: $bold;
     line-height: $line-h;
+    font-size: $size;
+    letter-spacing: $letterspace;
     font-style: normal;
     text-transform: uppercase;
     color: $white;
@@ -17,6 +17,8 @@
     font-family: $josefin;
     font-weight: $regular;
     font-style: normal;
+    font-size: $size;
+    letter-spacing: $letterspace;
     line-height: $line-h;
     text-transform: capitalize;
     color: $white;
