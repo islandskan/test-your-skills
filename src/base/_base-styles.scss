@@ -1,21 +1,21 @@
+@use 'variables' as *;
+
 // //Borders
 
 // //Border-radius
 
 // //Margins and paddings
 
-// //Links
-// a {
-//     &:link {
+//Links
+a, a:link {
+    color: $white;
+    &:visited {
 
-//     }
-//     &:visited {
+    }
+    &:hover, &:active {
 
-//     }
-//     &:hover, &:active {
+    }
+    &:focus {
 
-//     }
-//     &:focus {
-
-//     }
-// }
+    }
+}
