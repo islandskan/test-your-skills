@@ -4,22 +4,22 @@
 
 .btn {
     width: 100%;
-    @include button (150px, 60px, $blue);
+    @include button (9.3rem, 3.75rem, $blue);
     & p {
-        @include btntxt (14px, 1.4px);
+        @include btntxt (.8rem, .08);
         &::after {
             content: '';
-            margin-right: 12px;
+            margin-right: .75rem;
         }
     }
     &__lg {
-        max-width: 228px;
+        max-width: 14.25rem;
         width: 100%;
-        height: 63px;
+        height: 3.9rem;
         border: none;
         background-image: linear-gradient(100deg,#496BFE, #5474FD);
         & a {
-            @include btntxt (16px, 1.2px);
+            @include btntxt (1rem, .075rem);
         }
     }
 }
