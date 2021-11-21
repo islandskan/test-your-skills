@@ -1,13 +1,68 @@
 @use 'variables' as *;
 
 
+//Typography
+%title {        //h2. use for 'Why Choose Us', 'How it works' & 'What our tourist say'
+    text-transform: capitalize;
+    color: $white;
+    font-size: 2.25rem;
+    font-family: $aleo;
+    font-weight: $regular;
+    line-height: $line-h;
+    color: $white;
+}
+.block .title {
+    @extend %title;
+    text-align: center;
+}
+
+h3.card__text--title {        //h3. Use for 'Spain" in the Spain sections.
+    font-family: $josefin;
+    font-weight: $regular;
+    font-size: 1.25rem;
+    line-height: $line-h;
+    color: $white;
+    letter-spacing: .09rem;
+}
+
+h4.card__text--title {      //h4. Use for 'Grand Spain Madrid' in the Spain sections and 'Sam Sumon' in the Tourist section.
+    font-family: $josefin;
+    font-weight: $regular;
+    font-size: 1.25rem;
+    line-height: $line-h;
+    color: $white;
+    text-transform: uppercase;
+}
+
+.card__text--text {
+    font-family: $josefin;
+    font-weight: $regular;
+    line-height: $line-h;
+    color: $white;
+}
+
+.card-quote__quote {
+    font-family: $montserrat;
+    color: $font-gray;
+    font-weight: $regular;
+    font-size: 1rem;
+    line-height: $line-h;
+    letter-spacing: .1rem;
+    &::before {
+        content: 'f10d';
+        // content: open-quote;
+        color: $blue;
+        font-size: calc(1rem * 2);
+        margin-right: $marg;
+    }
+}
+
 //Links
-a, a:link {
+a {
     color: $white;
     text-decoration: none;
     transition: all .2s ease-in;
     cursor: pointer;
-    text-transform: uppercase;
     &:visited {
         text-decoration: none;
         cursor: pointer;
@@ -22,6 +77,13 @@ a, a:link {
         text-decoration: none;
         cursor: pointer;
     }
+    &:not(a.scroll-down) {
+        text-transform: uppercase;
+    }
+}
+
+a.scroll-down {
+    text-transform: capitalize;
 }
 
 //Buttons
