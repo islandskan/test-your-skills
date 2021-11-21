@@ -2,7 +2,7 @@
 
 
 //Typography
-%title {        //h2. use for 'Why Choose Us', 'How it works' & 'What our tourist say'
+.title {        //h2. use for 'Why Choose Us', 'How it works' & 'What our tourist say'
     text-transform: capitalize;
     color: $white;
     font-size: 2.25rem;
@@ -12,7 +12,7 @@
     color: $white;
 }
 .block .title {
-    @extend %title;
+    @extend .title;
     text-align: center;
 }
 
@@ -41,21 +41,6 @@ h4.card__text--title {      //h4. Use for 'Grand Spain Madrid' in the Spain sect
     color: $white;
 }
 
-.card-quote__quote {
-    font-family: $montserrat;
-    color: $font-gray;
-    font-weight: $regular;
-    font-size: 1rem;
-    line-height: $line-h;
-    letter-spacing: .1rem;
-    &::before {
-        content: 'f10d';
-        // content: open-quote;
-        color: $blue;
-        font-size: calc(1rem * 2);
-        margin-right: $marg;
-    }
-}
 
 //Links
 a {
@@ -68,20 +53,16 @@ a {
         cursor: pointer;
     }
     &:hover, &:active {
-        color: $blue;
+        // color: $blue;
         text-decoration: none;
         cursor: pointer;
     }
     &:focus, &:focus-visible {
-        color: $blue;
+        // color: $blue;
         text-decoration: none;
         cursor: pointer;
     }
     &:not(a.scroll-down) {
         text-transform: uppercase;
     }
-}
-
-a.scroll-down {
-    text-transform: capitalize;
 }

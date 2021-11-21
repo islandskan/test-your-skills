@@ -11,3 +11,18 @@
     background-repeat: no-repeat;
     // position: relative;
 }
+
+.card-quote__quote {
+    font-family: $montserrat;
+    color: $font-gray;
+    font-weight: $regular;
+    font-size: 1rem;
+    line-height: $line-h;
+    letter-spacing: .1rem;
+    padding: $pad;
+    & .fa-quote-left {
+        color: $blue;
+        font-size: calc(1rem * 4);
+        margin-right: $marg;
+    }
+}

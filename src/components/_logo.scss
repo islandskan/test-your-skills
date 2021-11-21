@@ -1,23 +1,24 @@
 @use '../base/' as *;
-@use '../utilities/' as *;
 
 
-.hero .logo {
-    @include logo (3rem, .3rem);
-}
+// .hero__logo {
 
-.hero .headline {
-    @include headline (1.3rem, .42rem);
-}
 
-.nav .logo {
-    @include logo (1.5rem, .15rem);
-}
+// }
 
-.footer .logo {
-    @include logo (1.5rem, .21rem);
-}
 
-.footer .headline {
-    @include headline (1rem, .1rem);
-}
+// .hero__logo p.headline {
+//     @include headline (1.3rem, .42rem);
+// }
+
+// .nav .logo {
+//     @include logo (1.5rem, .15rem);
+// }
+
+// .footer .logo {
+//     @include logo (1.5rem, .21rem);
+// }
+
+// .footer .headline {
+//     @include headline (1rem, .1rem);
+// }

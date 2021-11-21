@@ -12,13 +12,11 @@
     height: 63px;
     display: flex;
     align-items: stretch;
-    padding: 0;
     justify-content: flex-start;
 }
 
 label {
-    visibility: hidden;
-    display: block;
+    display: none;
 }
 
 button[type="submit"] {
@@ -27,6 +25,13 @@ button[type="submit"] {
     border: none;
     transition: all .2s ease-in;
     cursor: pointer;
+    font-family: $aleo;
+    font-weight: $regular;
+    text-transform: uppercase;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 14px;
+    letter-spacing: 1.4px;
     &:hover, &:active {
         border: none;
         background-color: $white;
@@ -42,12 +47,31 @@ button[type="submit"] {
 }
 
 input[type="search"] {
-    padding: auto;
     border: none;
     cursor: pointer;
     flex-grow: 1;
     border-radius: 0;
-    max-width: 503px;
+    max-width: 652px;
     width: 100%;
-
+    padding: $pad;
+    transition: all .2s ease-in;
+    &::placeholder {
+    font-family: $josefin;
+    font-size: 14px;
+    line-height: $line-h;
+    letter-spacing: 2.8px;
+    color: $gray;
+    }
+     &:hover, &:active {
+        border: none;
+        color: $footer-background;
+        cursor: pointer;
+        font-family: $josefin;
+        font-size: 14px;
+    }
+    &:focus, &:focus-visible {
+        border: none;
+        color: $footer-background;
+        cursor: pointer;
+    }
 }

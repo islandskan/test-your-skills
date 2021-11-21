@@ -7,4 +7,65 @@
     background-size: cover;
     background-repeat: no-repeat;
     // position: relative;
+    & .card {
+        grid-column: 5 / span 4;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: row;
+        flex-wrap: wrap;
+        &-logo {
+            text-align: center;
+            color: $white;
+            font-family: $josefin;
+            & p.logo {
+                font-weight: $bold;
+                font-size: 24px;
+                letter-spacing: 2.4px;
+                font-style: normal;
+                text-transform: uppercase;
+                display: block;
+                line-height: $line-h;
+            }
+            & p.headline {
+                font-weight: $regular;
+                font-size: 16px;
+                letter-spacing: 1.6px;
+                line-height: $line-h;
+            }
+        }
+    }
 }
+
+.social {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+// <div class="card-logo">
+// <p class="logo">
+//     Bhromaon
+// </p>
+// <p class="headline">
+//     Safe Travel Anywhere
+// </p>
+// </div>
+// <div class="social">
+// <a href="#">
+//     <i class="fab fa-facebook-f icon"></i>
+// </a>
+// <a href="#">
+//     <i class="fab fa-twitter icon"></i>
+// </a>
+// <a href="#">
+//     <i class="fab fa-linkedin-in icon"></i>
+// </a>
+// <a href="#">
+//     <i class="fab fa-youtube icon"></i>
+// </a>
+// <a href="#">
+//     <i class="fab fa-pinterest icon"></i>
+// </a>
+// </div>

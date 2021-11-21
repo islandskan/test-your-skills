@@ -24,34 +24,36 @@
         <!--HERO SECTION STARTS-->
         <header class="hero">
             <div class="container">
-                <div class="card-logo">
-                    <h1 class="logo">
-                        BHROMAON
-                    </h1>
-                    <p class="headline">
-                        Safe travel anywhere
-                    </p>
+                <div class="hero-card">
+                    <div class="hero__logo">
+                        <h1 class="logo">
+                            BHROMAON
+                        </h1>
+                        <p class="headline">
+                            Safe travel anywhere
+                        </p>
+                    </div>
+                    <form action="" class="hero__form">
+                            <label for="search">
+                                Search your travel destination
+                            </label>
+                            <input type="search" name="search"
+                                id="search" required
+                                placeholder="Search your travel destination">
+                            <button type="submit" class="btn">
+                                <p>
+                                Search
+                                </p>
+                                <i class="fas fa-search icon"></i>
+                            </button>
+                    </form>
+                    <div class="scroll-down">
+                        <a href="#">
+                            Scroll Down
+                        </a>
+                        <i class="fas fa-chevron-down icon"></i>
+                    </div>
                 </div>
-                <form action="" class="hero__form">
-                        <label for="search">
-                            Search your travel destination
-                        </label>
-                        <input type="search" name="search"
-                            id="search" required
-                            placeholder="Search your travel destination">
-                        <button type="submit" class="btn">
-                            <p>
-                            Search
-                            </p>
-                            <i class="fas fa-search icon"></i>
-                        </button>
-                </form>
-                <figure class="hero__scroll">
-                    <figcaption>
-                        Scroll Down
-                    </figcaption>
-                    <i class="fas fa-chevron-down icon"></i>
-                </figure>
             </div>
         </header>
         <!--HERO SECTION ENDS-->
@@ -60,9 +62,9 @@
         <nav class="nav">
             <div class="container">
                 <div class="card-logo">
-                    <p class="logo">
+                    <h1 class="logo">
                         Bhromaon
-                    </p>
+                    </h1>
                 </div>
                 <ul class="menu">
                     <li>
@@ -85,15 +87,15 @@
             <section class="choose">
                 <div class="container">
                     <div class="text-card">
-                        <h2 class="text-card__title">
+                        <h2 class="title">
                             Why choose us
                         </h2>
-                        <p class="text-card__text">
+                        <p class="card__text--text">
                             Tion and dislike men who are so beguiled and
                             demoralized by desire by the charms of pleasure of the moment,
                             so blinded by desire, that they cannot foresee
                         </p>
-                        <p class="text-card__text">
+                        <p class="card__text--text">
                             Ddislike men who are so
                             beguiled and demoralized by the charms of pleasure of the moment,
                             so blinded by desire, that.
@@ -117,17 +119,17 @@
             <section class="block">
                 <div class="container">
                     <i class="fas fa-search icon"></i>
-                    <p class="block__icon--text">
+                    <p class="title">
                         Search Places
                     </p>
                     <!--Insert some svg line-->
                     <i class="far fa-check-circle icon"></i>
-                    <p class="block__icon--text">
+                    <p class="title">
                     Select Places
                     </p>
                     <!--Insert some svg line-->
                     <i class="far fa-thumbs-up icon"></i>
-                    <p class="block__icon--text">
+                    <p class="title">
                         Book & Enjoy
                     </p>
                 </div>
@@ -138,13 +140,13 @@
             <section class="spain-1">
                 <div class="container">
                     <div class="card">
-                        <h3>
+                        <h3 class="card__text--title">
                             Spain
                         </h3>
-                        <h4>
+                        <h4 class="card__text--title">
                             Grand Spain Madrid
                         </h4>
-                        <p>
+                        <p class="card__text--text">
                             But I must explain to you how all this mistaken
                             idea of account to denouncing pleasure and praising pain was account
                             born and I account will give you a complete account of the system
@@ -161,13 +163,13 @@
             <section class="spain-2">
                 <div class="container">
                     <div class="card">
-                        <h3>
+                        <h3 class="card__text--title">
                             Spain
                         </h3>
-                        <h4>
+                        <h4 class="card__text--title">
                             Grand Spain Madrid
                         </h4>
-                        <p>
+                        <p class="card__text--text">
                             But I must explain to you how all this mistaken
                             idea of account to denouncing pleasure and praising pain was account
                             born and I account will give you a complete account of the system
@@ -193,6 +195,7 @@
                                 Sam Sumon
                             </h4>
                             <blockquote class="card-quote__quote">
+                                <span><i class="fas fa-quote-left"></i></span>
                                 But I must explain to you how all this mistaken idea of account
                                 to denouncinpleasure and praising pain  But I must explain to you
                                 how all this mistaken idea of account to nai denouncing pleasure and
@@ -210,20 +213,32 @@
             <!--FOOTER SECTION STARTS-->
         <footer class="footer">
             <div class="container">
-                <div class="card-logo">
-                    <p class="logo">
-                        Bhromaon
-                    </p>
-                    <p class="headline">
-                        Safe Travel Anywhere
-                    </p>
-                </div>
-                <div class="social">
-                    <i class="fab fa-facebook-f icon"></i>
-                    <i class="fab fa-twitter icon"></i>
-                    <i class="fab fa-linkedin-in icon"></i>
-                    <i class="fab fa-youtube icon"></i>
-                    <i class="fab fa-pinterest icon"></i>
+                <div class="card">
+                    <div class="card-logo">
+                        <p class="logo">
+                            Bhromaon
+                        </p>
+                        <p class="headline">
+                            Safe Travel Anywhere
+                        </p>
+                    </div>
+                    <div class="social">
+                        <a href="#">
+                            <i class="fab fa-facebook-f icon"></i>
+                        </a>
+                        <a href="#">
+                            <i class="fab fa-twitter icon"></i>
+                        </a>
+                        <a href="#">
+                            <i class="fab fa-linkedin-in icon"></i>
+                        </a>
+                        <a href="#">
+                            <i class="fab fa-youtube icon"></i>
+                        </a>
+                        <a href="#">
+                            <i class="fab fa-pinterest icon"></i>
+                        </a>
+                    </div>
                 </div>
             </div>
         </footer>
