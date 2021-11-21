@@ -1,2 +1,25 @@
 @use '../base/' as *;
 @use '../utilities/' as *;
+
+
+.btn {
+    width: 100%;
+    @include button (150px, 60px, $blue);
+    & p {
+        @include btntxt (14px, 1.4px);
+        &::after {
+            content: '';
+            margin-right: 12px;
+        }
+    }
+    &__lg {
+        max-width: 228px;
+        width: 100%;
+        height: 63px;
+        border: none;
+        background-image: linear-gradient(100deg,#496BFE, #5474FD);
+        & a {
+            @include btntxt (16px, 1.2px);
+        }
+    }
+}

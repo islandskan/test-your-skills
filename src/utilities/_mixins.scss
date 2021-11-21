@@ -1,2 +1,45 @@
 @use 'utilities/functions' as *;
-@use 'utilities/mixins' as *;
+
+@use '../base' as *;
+// /*Typography rules*/
+
+//Logo
+@mixin logo ($size, $letterspace) {
+    font-family: $josefin;
+    font-weight: $bold;
+    line-height: 26px;
+    font-style: normal;
+    text-transform: uppercase;
+    color: $white;
+}
+
+@mixin headline ($size, $letterspace) {
+    font-family: $josefin;
+    font-weight: $regular;
+    font-style: normal;
+    line-height: 26px;
+    text-transform: capitalize;
+    color: $white;
+}
+
+@mixin button ($width, $height, $background) {
+    color: $white;
+    text-align: center;
+    margin: 5px;
+    padding: 12px;
+    width: $width;
+    height: $height;
+    background: $background;
+    border: none;
+}
+
+@mixin btntxt ($size, $letterspace) {
+    font-family: $aleo;
+    font-weight: $regular;
+    text-transform: uppercase;
+    text-decoration: none;
+    display: inline-block;
+    line-height: 26px;
+    font-size: $size;
+    letter-spacing: $letterspace;
+}

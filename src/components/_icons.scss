@@ -1,2 +1,12 @@
 @use '../base/' as *;
 @use '../utilities/' as *;
+
+
+i.icon:not(.block i)  {
+    color: $white;
+}
+
+
+i.fa-search {
+    font-size: 20px;
+}
