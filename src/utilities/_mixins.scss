@@ -47,9 +47,5 @@
 }
 
 @mixin card-txt ($letterspace) {
-    font-family: $josefin;
-    font-weight: $regular;
-    line-height: $line-h;
-    color: $white;
     letter-spacing: $letterspace;
 }

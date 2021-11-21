@@ -2,3 +2,12 @@
 @use '../components/' as *;
 @use '../layout' as *;
 @use '../utilities/' as *;
+
+
+.hero {
+    background-image: url(/images/hero-banner.png);
+    grid-column: 1 / span 18;
+    grid-row: 1 / span 1;
+    background-size: cover;
+    background-repeat: no-repeat;
+}

@@ -1,0 +1,12 @@
+.grid {
+    width: 100%;
+    // height: 100vh;
+    min-height: 4271px;
+    border: 1px solid blue;
+    margin: 0;
+    display: grid;
+    grid-template-columns: repeat(18, 1fr);
+    grid-template-rows: 1fr 0.16fr 1fr 0.4fr repeat(3, 1fr) 0.4fr;
+    column-gap: 1.875rem;
+    row-gap: 0;
+}

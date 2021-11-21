@@ -1,7 +1,9 @@
 body {
     width: 100%;
+    max-width: 1770px;
+    min-height: 4271px;
     height: 100vh;
     font-style: normal;
     margin: 0;
-    border: 1px solid red;
+    border: 1px solid red;      //just for debugging
 }
