@@ -27,12 +27,11 @@
 @mixin button ($width, $height, $background) {
     color: $white;
     text-align: center;
-    margin: $marg;
-    padding: $pad;
     width: $width;
     height: $height;
     background: $background;
     border: none;
+    border-radius: 0;
 }
 
 @mixin btntxt ($size, $letterspace) {

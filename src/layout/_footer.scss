@@ -1,1 +1,10 @@
 @use '../base/' as *;
+
+.footer {
+    background-color: $footer-background;
+    grid-column: 1 / span 3;
+    grid-auto-rows: 8 / span 1;
+    background-size: cover;
+    background-repeat: no-repeat;
+    // position: relative;
+}

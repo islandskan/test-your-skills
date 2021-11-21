@@ -1,1 +1,13 @@
 @use '../base/' as *;
+
+.container {
+    border: 2px solid red;
+    margin: 0 auto;
+    display: grid;
+    width: 60%;
+    height: 100%;
+    grid-template-columns: repeat(12, 1fr);
+    grid-template-rows: 1fr;
+    column-gap: 30px;
+    row-gap: 0;
+}

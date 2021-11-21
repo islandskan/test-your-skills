@@ -4,3 +4,50 @@
 
 // Use for hover and focus transitions $gray: #999999;
 //Use with outline
+
+.hero__form {
+    outline: $btn-border solid $white;
+    max-width: 652px;
+    width: 100%;
+    height: 63px;
+    display: flex;
+    align-items: stretch;
+    padding: 0;
+    justify-content: flex-start;
+}
+
+label {
+    visibility: hidden;
+    display: block;
+}
+
+button[type="submit"] {
+    max-width: 150px;
+    width: 100%;
+    border: none;
+    transition: all .2s ease-in;
+    cursor: pointer;
+    &:hover, &:active {
+        border: none;
+        background-color: $white;
+        color: $blue;
+        cursor: pointer;
+    }
+    &:focus, &:focus-visible {
+        border: none;
+        background-color: $white;
+        color: $blue;
+        cursor: pointer;
+    }
+}
+
+input[type="search"] {
+    padding: auto;
+    border: none;
+    cursor: pointer;
+    flex-grow: 1;
+    border-radius: 0;
+    max-width: 503px;
+    width: 100%;
+
+}

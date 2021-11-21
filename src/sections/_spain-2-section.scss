@@ -2,3 +2,13 @@
 @use '../components/' as *;
 @use '../layout' as *;
 @use '../utilities/' as *;
+
+
+.spain-2 {
+    background-image: url(/images/span-2.png);
+    grid-column: 1 / span 3;
+    grid-row: 6 / span 1;
+    background-size: cover;
+    background-repeat: no-repeat;
+    // position: relative;
+}

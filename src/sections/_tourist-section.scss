@@ -2,3 +2,12 @@
 @use '../components/' as *;
 @use '../layout' as *;
 @use '../utilities/' as *;
+
+.tourist {
+    background-image: url(/images/tourist-2.png);
+    grid-column: 1 / span 3;
+    grid-row: 7 / span 1;
+    background-size: cover;
+    background-repeat: no-repeat;
+    // position: relative;
+}

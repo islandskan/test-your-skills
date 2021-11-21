@@ -2,3 +2,11 @@
 @use '../components/' as *;
 @use '../layout' as *;
 @use '../utilities/' as *;
+
+.choose {
+    background-image: url(/images/why-choose-3.png);
+    grid-column: 1 / span 3;
+    grid-row: 3 / span 1;
+    background-size: cover;
+    background-repeat: no-repeat;
+}

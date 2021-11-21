@@ -5,5 +5,11 @@ body {
     height: 100vh;
     font-style: normal;
     margin: 0;
-    border: 1px solid red;      //just for debugging
+    position: relative;
+    // border: 1px solid red;      //just for debugging
+}
+
+main {
+    width: 100%;
+    border: 1px solid red;
 }

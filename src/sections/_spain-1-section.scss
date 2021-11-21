@@ -2,3 +2,12 @@
 @use '../components/' as *;
 @use '../layout' as *;
 @use '../utilities/' as *;
+
+.spain-1 {
+    background-image: url(/images/spain-1.png);
+    grid-column: 1 / span 3;
+    grid-row: 5 / span 1;
+    background-size: cover;
+    background-repeat: no-repeat;
+    // position: relative;
+}

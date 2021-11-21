@@ -2,7 +2,7 @@
 @use '../utilities/' as *;
 
 
-.btn {
+.btn, button {
     width: 100%;
     @include button (9.3rem, 3.75rem, $blue);
     & p {

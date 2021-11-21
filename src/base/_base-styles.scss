@@ -85,33 +85,3 @@ a {
 a.scroll-down {
     text-transform: capitalize;
 }
-
-//Buttons
-button[type="submit"] {
-    border: none;
-    transition: all .2s ease-in;
-    cursor: pointer;
-    &:hover, &:active {
-        border: none;
-        background-color: $white;
-        color: $blue;
-        cursor: pointer;
-    }
-    &:focus, &:focus-visible {
-        border: none;
-        background-color: $white;
-        color: $blue;
-        cursor: pointer;
-    }
-}
-//Come back and style individual buttons
-
-//Input
-input[type="search"] {
-    margin: $marg;
-    padding: auto;
-    border: none;
-    outline: $btn-border solid $white;
-    cursor: pointer;
-
-}
